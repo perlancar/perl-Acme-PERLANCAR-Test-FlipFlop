@@ -26,13 +26,14 @@ sub die_in_odd {
 }
 
 1;
-# ABSTRACT: Incompatibilities between releases
+# ABSTRACT: Test incompatibilities between releases
 
 =head1 DESCRIPTION
 
 This distribution is created for testing. It has several functions which behave
-differently between releases (I'll call versions X.Y where Y is an odd number as
-odd releases and where Y is an even number as even releases.)
+differently between releases. I'll call versions X.Y where Y is an odd number as
+odd releases and where Y is an even number as even releases. For example, 0.001
+is an odd release while 0.002 is an even release.
 
 
 =head1 FUNCTIONS
